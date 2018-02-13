@@ -1,0 +1,40 @@
+@media screen and (max-width: 1024px){
+    .dashboard .left-block {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .dashboard .right-block {
+        width: 100%;
+        display: block;
+    }
+}
+@media screen and (max-width: 680px) {
+    .dashboard .header-bottom .name{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 645px){
+    .dashboard .left-block .person {
+        width: 100%;
+        padding: 35px !important;
+    }
+}
+@media screen and (max-width: 680px) {
+    .dashboard .header-bottom div:first-child{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dashboard .button-area{
+        flex-direction: column;
+    }
+    .dashboard .button-area .chat,.dashboard .button-area .download{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .dashboard .left-block .sales-summary{
+        flex-direction: column;
+    }
+}

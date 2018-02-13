@@ -1,0 +1,361 @@
+
+.dashboard {
+    margin-left: 350px;
+    background: #eff3f6;
+    /*width: 100%;*/
+    display: inline-block;
+}
+
+.dashboard .body {
+    padding: 30px;
+}
+
+.dashboard .left-block {
+    /*display: inline-block;*/
+    width: 66%;
+    vertical-align: top;
+    background: white;
+    /*height: 800px;*/
+    border-radius: 4px;
+    border: solid 1px #e6eaee;
+    display: table-cell;
+}
+
+.dashboard .right-block {
+    /*display: inline-block;*/
+    display: table-cell;
+    width: 34%;
+    vertical-align: top;
+    /*height: 800px;*/
+    border-radius: 4px;
+    background-color: #fafbfc;
+    border: solid 1px #e6eaee;
+    border-left: none;
+    padding: 0px 30px;
+    padding-bottom: 20px;
+}
+
+.dashboard .left-block .sales-summary {
+    padding: 36px 40px;
+    border-bottom: 1px solid #e6eaee;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard .left-block .sales-summary img {
+max-width: 437px;
+    width: 50%;
+}
+
+.dashboard .left-block .sales-summary .summary .name {
+    color: #354052;
+    font-size: 24px;
+}
+
+.dashboard .left-block .sales-summary .summary .name span:first-child {
+    padding-right: 8px;
+    border-right: 1px solid #e7e9ed;
+}
+
+.dashboard .left-block .sales-summary .summary .name span:last-child {
+    padding-left: 8px;
+}
+
+.dashboard .left-block .sales-summary .summary .title {
+    font-size: 12px;
+    color: #7f8fa4;
+}
+
+.dashboard .left-block .person {
+    width: 50%;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 15px;
+    padding-top: 35px;
+}
+
+.dashboard .left-block .person:nth-child(2n) {
+    padding-left: 15px;
+    padding-right: 40px;
+}
+
+.dashboard .left-block .person-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard .left-block .person-top img {
+    vertical-align: middle;
+}
+
+.dashboard .left-block .person-top .name-group {
+    display: inline-block;
+    padding-left: 17px;
+    vertical-align: middle;
+}
+
+.dashboard .left-block .person-top .name {
+    font-size: 14px;
+    color: #354052;
+}
+
+.dashboard .left-block .person-top .title {
+    font-size: 14px;
+    color: #7f8fa4;
+}
+
+.dashboard .left-block .person-top .percentage {
+    font-size: 24px;
+}
+
+.dashboard .left-block .person-middle {
+    padding: 10px 0;
+    max-width: 300px;
+    width: 100%;
+}
+
+.dashboard .left-block .person-bottom {
+    /*padding: 10px 0;*/
+    display: flex;
+    justify-content: space-between;
+    color: #7f8fa4;
+    font-size: 14px;
+}
+
+.dashboard .left-block .person-bottom img {
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.dashboard .left-block .person-bottom span {
+    vertical-align: middle;
+}
+
+.dashboard .left-block .tags {
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.dashboard .left-block .tags div {
+    display: inline-block;
+    padding-right: 17px;
+}
+
+.dashboard .left-block .tags span {
+    color: #354052;
+    font-size: 14px;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.dashboard .left-block .tags img {
+    vertical-align: middle;
+    padding-right: 8px;
+}
+.dashboard .right-block .top-section{
+    height: 72px;
+    border-bottom: 1px solid #e6eaee;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.dashboard .right-block .top-section h5{
+    color: #354052;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.dashboard .right-block .top-section span{
+    color: #1a91eb;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.dashboard .right-block .top-section-content .box{
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #e7e9ed;
+    /*height: 100px;*/
+    margin-top: 10px;
+    padding: 20px;
+}
+.dashboard .right-block .top-section-content .box div{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard .right-block .top-section-content .box h5{
+    display: inline-block;
+    vertical-align: middle;
+    color: #354052;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.dashboard .right-block .top-section-content .box img{
+    vertical-align: middle;
+}
+.dashboard .right-block .top-section-content .box p{
+    color: #7f8fa4;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'ProximaNova Regular', sans-serif;
+    padding-top: 9px;
+}
+.dashboard .right-block .top-section-content .select{
+    /*width: 340px;*/
+    height: 36px;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #f2f4f7, #ffffff);
+    border: solid 1px #ced0da;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard .right-block .top-section-content .select div:first-child{
+    border-right:1px solid #ced0da;
+    width:36px;
+    height:100%;
+    position: relative;
+}
+.dashboard .right-block .top-section-content .select div:last-child{
+    border-left:1px solid #ced0da;
+    width:36px;
+    height:100%;
+    position: relative;
+}
+.dashboard .arrow-left{
+    width: 6px;
+    height: 10px;
+    border: 5px solid transparent;
+    border-right: 5px solid #ced0da;
+    position: absolute;
+    top: 12px;
+    left: 9px;
+}
+.dashboard .arrow-right{
+    width: 6px;
+    height: 10px;
+    border: 5px solid transparent;
+    border-left: 5px solid #ced0da;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+.dashboard .select p{
+    color: #354052;
+    font-family: ProximaNova, sans-serif;
+    font-size: 14px;
+}
+.dashboard .right-block .summary .name {
+    color: #354052;
+    font-size: 24px;
+    display: inline-block;
+    width: 50%;
+    margin-top: 40px;
+}
+.dashboard .right-block .summary .title {
+    color: #7f8fa4;
+    font-size: 14px;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.dashboard .right-block .summary .name span:first-child {
+    padding-right: 8px;
+    border-right: 1px solid #e7e9ed;
+}
+.dashboard .right-block .summary .name span:last-child {
+    padding-left: 8px;
+}
+.dashboard .right-block .progress .Fill {
+    width: 70%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #38ba24;
+    display: inline-block;
+}
+.dashboard .right-block .progress .Empty {
+    width: 30%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #dfe4ee;
+    display: inline-block;
+}
+
+.dashboard .release-stats .key{
+    font-family: ProximaNova;
+    font-size: 14px;
+    text-align: left;
+    color: #7f8fa4;
+    display: inline-block;
+    width: 35%;
+    margin-bottom: 13px;
+}
+.dashboard .release-stats .value{
+    font-family: ProximaNova;
+    font-size: 14px;
+    text-align: left;
+    color: #354052;
+    display: inline-block;
+}
+
+.dashboard .release-stats{
+    margin-top: 22px;
+}
+.dashboard .button-area{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard .button-area .chat{
+    width: 160px;
+    height: 36px;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1991eb, #2da1f8);
+    border: solid 1px #1585d8;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 10px;
+}
+.dashboard .button-area .chat span{
+    font-family: "Circular Std", sans-serif;
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: left;
+    color: #ffffff;
+}
+.dashboard .button-area .download{
+    width: 170px;
+    height: 36px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, #39b54a, #34aa44);
+    border: solid 1px #249533;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 12px;
+}
+.dashboard .button-area .download span{
+    font-family: "Circular Std", sans-serif;
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: left;
+    color: #ffffff;
+}
+
+.dashboard .disclaimer p{
+    font-family: 'ProximaNova Regular', sans-serif;
+    font-size: 13px;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7f8fa4;
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+    padding-left: 10px;
+}
+.dashboard .disclaimer{
+    margin-top: 50px;
+}

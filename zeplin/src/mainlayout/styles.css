@@ -1,0 +1,38 @@
+.app-nav-sidebarButton {
+    display: none;
+    vertical-align: middle;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: -20px;
+    position: absolute;
+    top: 15px;
+    z-index: 9999;
+}
+
+.app-nav-sidebarButton svg {
+    fill: #1d2531;
+}
+
+@media (max-width: 1200px) {
+    .app-nav-sidebarButton {
+        display: inline-block;
+    }
+    .dashboard .header-top h5{
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .dashboard {
+        margin-left: 0px;
+    }
+
+    #app-sidebar.responsive {
+        left: -350px;
+        transition: left 0.3s ease-out;
+    }
+
+    #app-sidebar.responsive.show {
+        left: 0;
+    }
+}

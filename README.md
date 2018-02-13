@@ -6,6 +6,11 @@ The purpose of this test is not only to quickly gauge an applicant's abilities w
 
 Applicants may use whatever techniques and Javascript/CSS frameworks they want to achieve the outcome.
 
+## Tools Used
+1. React JS Framework
+2. Webpack
+3. Babel
+
 ## How to complete the task
 
 1. Fork this repository into your own public repo.
